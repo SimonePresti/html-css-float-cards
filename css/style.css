@@ -1,0 +1,37 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conteiner {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+section#text {
+    margin-top: 2rem;
+}
+
+.rectangles {
+    border: 1px solid black;
+
+}
+
+.float-left {
+    border: 1px solid black;
+    background-color:rgb(15, 14, 23);
+    color: white;
+    float: left;
+    height: 70px;
+
+}
